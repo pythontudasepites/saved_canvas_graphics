@@ -7,7 +7,7 @@ Nyilván egy lehetséges út a képernyőképmentés (printscreen). Ez azonban r
 
 E helyett, mivel a megjelenített grafikához a vásznon rendelkezésre állnak a rajzelemek, vektorgrafikusan fogjuk leírni a képet. Ennek elvét írja le az alábbi ábra. 
 
-<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/tcg_saving_principles.png" width="400" height="247">
+<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/tcg_saving_principles.png" width="600" height="371">
 
 Az elvet programban a következőképpen valósítjuk meg.
 
