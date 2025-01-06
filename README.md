@@ -59,6 +59,8 @@ A megadott mentési mappában található .tcg fájlok által leírt grafikákat
 
 Az alkalmazás grafikus felhasználói felületét és egy eredményképet mutat az alábbi ábra, ahol a használat lépéseit sorszámokkal jeleztük a megfelelő nyomógombokon. Itt az is látható, hogy akár több modulban szereplő  grafikaelőállító függvényekkel is dolgozhatunk.
 
+<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/tcg_file_maker_app.png" width="385" height="400">
+
 A *tcg_files* mappában néhány elkészített és használható .tcg fájl található.
 
 ## Montázskészítő alkalmazás
@@ -81,7 +83,13 @@ A vászon színének megváltoztatására is van lehetőség, ha a vászon egy p
 
 Ha a montázs elkészült, akkor azt a „A létrehozott montázs grafika mentése TCG fájlba” gomb megnyomásával menthetjük el megadva a fájlnevet a felugró párbeszédablakban. A mentés után a montázs törlődik, tiszta felületet adva a következő alkotáshoz. A mentési mappába került montázsok megtekinthetők, ha a „Mentett grafikák megjelenítése” gomb lenyomása után felugró párbeszédablakban kiválasztunk egy .tcg fájlt. Alapértelmezésben az ablak a legutoljára elmentett montázs fájlnevét kínálja fel.
 
-Ez az alkalmazás – minthogy alapvetően demonstrációs célú – nem rendelkezik egy képszerkesztő teljes funkcionalitásával. De az egyeni igényeknek megfelelően továbbfejleszthető: pl. beviteli mezők és nyomógombok helyett menürendszer, és funkcionalitásban kiegészíthető a tükrözés és forgatás geometriai transzformációkkal. Ez utóbbi alkalmazásához azonban alaktartóan forgatható rajzelemekből felépített grafikák szükségesek. Ehhez lásd a „Forgatható ellipszis, ellipszisív és téglalap” című korábbi bejegyzést. Ha pedig az alkotásunk rajzelemekből való felépítését mások elől el akarjuk rejteni, akkor .tcg fájlokat akár titkosítani is lehet.
+Az alkalmazás grafikus felhasználói felületét és eredményképeket mutatnak az alábbi ábrák, ahol a használat lépéseit sorszámokkal jeleztük a megfelelő nyomógombokon.
+
+<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/tcg_montage_maker_app1.png" width="385" height="400">
+
+<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/tcg_montage_maker_app2.png" width="385" height="400">
+
+Ez az alkalmazás – minthogy alapvetően demonstrációs célú – nem rendelkezik egy képszerkesztő teljes funkcionalitásával. De az egyeni igényeknek megfelelően továbbfejleszthető: pl. beviteli mezők és nyomógombok helyett menürendszer, és funkcionalitásban kiegészíthető a tükrözés és forgatás geometriai transzformációkkal. Ez utóbbi alkalmazásához azonban alaktartóan forgatható rajzelemekből felépített grafikák szükségesek. /Ehhez lásd a „rotatable_rectangle_and_ellipse” github projectet./ Ha pedig az alkotásunk rajzelemekből való felépítését mások elől el akarjuk rejteni, akkor .tcg fájlokat akár titkosítani is lehet.
 
 A tcg_montage_files mappában található .tcg fájlok montázsokat képviselnek, amelyek komponens grafikákból lettek előállítva.
 
