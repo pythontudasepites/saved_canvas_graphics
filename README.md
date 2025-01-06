@@ -59,7 +59,7 @@ A megadott mentési mappában található .tcg fájlok által leírt grafikákat
 
 Az alkalmazás grafikus felhasználói felületét és egy eredményképet mutat az alábbi ábra, ahol a használat lépéseit sorszámokkal jeleztük a megfelelő nyomógombokon. Itt az is látható, hogy akár több modulban szereplő  grafikaelőállító függvényekkel is dolgozhatunk.
 
-<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/tcg_file_maker_app.png" width="800" height="685">
+<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/images/tcg_file_maker_app.png" width="800" height="685">
 
 A *tcg_files* mappában néhány elkészített és használható .tcg fájl található.
 
@@ -85,11 +85,11 @@ Ha a montázs elkészült, akkor azt a „A létrehozott montázs grafika menté
 
 Az alkalmazás grafikus felhasználói felületét és eredményképeket mutatnak az alábbi ábrák, ahol a használat lépéseit sorszámokkal jeleztük a megfelelő nyomógombokon.
 
-<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/tcg_montage_maker_app1.png" width="800" height="740">
+<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/images/tcg_montage_maker_app1.png" width="800" height="740">
 
 
 
-<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/tcg_montage_maker_app2.png" width="800" height="740">
+<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/images/tcg_montage_maker_app2.png" width="800" height="740">
 
 Ez az alkalmazás – minthogy alapvetően demonstrációs célú – nem rendelkezik egy képszerkesztő teljes funkcionalitásával. De az egyeni igényeknek megfelelően továbbfejleszthető: pl. beviteli mezők és nyomógombok helyett menürendszer, és funkcionalitásban kiegészíthető a tükrözés és forgatás geometriai transzformációkkal. Ez utóbbi alkalmazásához azonban alaktartóan forgatható rajzelemekből felépített grafikák szükségesek. /Ehhez lásd a „rotatable_rectangle_and_ellipse” github projectet./ Ha pedig az alkotásunk rajzelemekből való felépítését mások elől el akarjuk rejteni, akkor .tcg fájlokat akár titkosítani is lehet.
 
