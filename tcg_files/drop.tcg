@@ -1,0 +1,80 @@
+{
+    "48": [
+        "arc",
+        [
+            346.0,
+            136.0,
+            618.0,
+            408.0
+        ],
+        {
+            "activedash": "",
+            "activefill": "",
+            "activeoutline": "",
+            "activeoutlinestipple": "",
+            "activestipple": "",
+            "activewidth": "0.0",
+            "dash": "",
+            "dashoffset": "0",
+            "disableddash": "",
+            "disabledfill": "",
+            "disabledoutline": "",
+            "disabledoutlinestipple": "",
+            "disabledstipple": "",
+            "disabledwidth": "0.0",
+            "extent": "-220.0",
+            "fill": "sky blue",
+            "offset": "0,0",
+            "outline": "",
+            "outlineoffset": "0,0",
+            "outlinestipple": "",
+            "start": "20.0",
+            "state": "",
+            "stipple": "",
+            "style": "pieslice",
+            "tags": "",
+            "width": "0.0"
+        }
+    ],
+    "49": [
+        "polygon",
+        [
+            482.0,
+            272.0,
+            609.7981964268836,
+            225.48526050770906,
+            482.0,
+            -125.6373984221799,
+            354.2018035731164,
+            225.48526050770906
+        ],
+        {
+            "activedash": "",
+            "activefill": "",
+            "activeoutline": "",
+            "activeoutlinestipple": "",
+            "activestipple": "",
+            "activewidth": "0.0",
+            "dash": "",
+            "dashoffset": "0",
+            "disableddash": "",
+            "disabledfill": "",
+            "disabledoutline": "",
+            "disabledoutlinestipple": "",
+            "disabledstipple": "",
+            "disabledwidth": "0.0",
+            "fill": "sky blue",
+            "joinstyle": "round",
+            "offset": "0,0",
+            "outline": "",
+            "outlineoffset": "0,0",
+            "outlinestipple": "",
+            "smooth": "0",
+            "splinesteps": "12",
+            "state": "",
+            "stipple": "",
+            "tags": "",
+            "width": "0.0"
+        }
+    ]
+}
