@@ -59,7 +59,7 @@ A megadott mentési mappában található .tcg fájlok által leírt grafikákat
 
 Az alkalmazás grafikus felhasználói felületét és egy eredményképet mutat az alábbi ábra, ahol a használat lépéseit sorszámokkal jeleztük a megfelelő nyomógombokon. Itt az is látható, hogy akár több modulban szereplő  grafikaelőállító függvényekkel is dolgozhatunk.
 
-<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/tcg_file_maker_app.png" width="385" height="400">
+<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/tcg_file_maker_app.png" width="800" height="685">
 
 A *tcg_files* mappában néhány elkészített és használható .tcg fájl található.
 
