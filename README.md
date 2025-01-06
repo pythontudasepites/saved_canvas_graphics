@@ -7,6 +7,8 @@ Nyilván egy lehetséges út a képernyőképmentés (printscreen). Ez azonban r
 
 E helyett, mivel a megjelenített grafikához a vásznon rendelkezésre állnak a rajzelemek, vektorgrafikusan fogjuk leírni a képet. Ennek elvét írja le az alábbi ábra. 
 
+
+
 Az elvet programban a következőképpen valósítjuk meg.
 
 Az egyes rajzelemek adatait egy szótárban gyűjtjük össze, amelyben a kulcsok a rajzelemek egyedi azonosítói, a kulcsokhoz tartozó értékek pedig sorozat típusú konténerek, amelyek elemei a rajzelem típusa, a koordináták sorozata, valamint egy, a konfigurációs paraméternév-érték párokat tartalmazó szótár.
@@ -43,7 +45,7 @@ A működéshez a grafikaelőállító függvényekre vonatkozóan vannak követ
 - csak egyetlen kötelezően megadandó pozícionális argumentumot fogadhatnak, ami a Canvas példány,
 - az átlátszóvá tenni kívánt rajzelemhez a „fill_transparent” tag van rendelve,
 - az aktuális canvas háttérszínnel egyező körvonal szín eléréséhez a rajzelemhez az „outline_transparent” tag van rendelve.
-- 
+
 Az alkalmazás indítása után beviteli mezőkből és vezérlő gombokból álló felhasználó felület jelenik meg.
 
 A grafikaelőállító függvényeket tartalmazó modulfájl elérési útvonalát és az elkészült .tcg kiterjesztésű fájlok mentési mappájának útvonalát a megfelelő beviteli mezőkben két módon adhatjuk meg. Vagy manuálisan begépelve, vagy a beviteli mezők jobb szélén található, három ponttal jelzett nyomógomb megnyomására felugró párbeszédablak segítségével.
