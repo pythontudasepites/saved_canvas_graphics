@@ -40,7 +40,7 @@ A *tcg* modul említett objektumai használatának demonstrálására két GUI a
 
 ## Tcg fájlokat létrehozó alkalmazás
 
-A *tcg_file_creations* nevű modult szripként futtatva egy oly GUI alkalmazás indul el, amely egy megadható modulfájlban definiált egy vagy több tkinter canvas grafikát előállító függvény alapján a grafikákat leíró .tcg kiterjesztésű fájlokat készít és ment el egy előre megadható mappába. E mappába elmentett létező .tcg fájlok által definiált grafikákat egy közös ablakban táblázatos elrendezésben is meg lehet jeleníteni.
+A *tcg_file_creations* nevű modult szkriptként futtatva egy oly GUI alkalmazás indul el, amely egy megadható modulfájlban definiált egy vagy több tkinter canvas grafikát előállító függvény alapján a grafikákat leíró .tcg kiterjesztésű fájlokat készít és ment el egy előre megadható mappába. E mappába elmentett létező .tcg fájlok által definiált grafikákat egy közös ablakban táblázatos elrendezésben is meg lehet jeleníteni.
 
 A működéshez a grafikaelőállító függvényekre vonatkozóan vannak követelmények, amelyek az alábbiak:
 - nevük create_ kezdetű,
@@ -65,7 +65,7 @@ A *tcg_files* mappában néhány elkészített és használható .tcg fájl tal�
 
 ## Montázskészítő alkalmazás
 
-A *tcg_montage_maker* modult szriptként futtatva egy olyan GUI alkalmazás indul el, amellyel .tcg fájlokban definiált grafikák felhasználásával egy új grafikát lehet készíteni az alkalmazás erre szolgáló felületén. Az egyéni terv szerint elrendezett (áthelyezett és/vagy átméretezett) komponens grafikákból álló montázst egy megadható mappába lehet elmenteni .tcg fájlformátumban. Ezt követően a montázst meg is lehet jeleníteni egy külön ablakban. Az alkalmazás indítása után a beviteli mezők és vezérlő gombok a bal oldalon, a vizuális grafikai tervező felület a jobb oldalon látható.
+A *tcg_montage_maker* modult szkriptként futtatva egy olyan GUI alkalmazás indul el, amellyel .tcg fájlokban definiált grafikák felhasználásával egy új grafikát lehet készíteni az alkalmazás erre szolgáló felületén. Az egyéni terv szerint elrendezett (áthelyezett és/vagy átméretezett) komponens grafikákból álló montázst egy megadható mappába lehet elmenteni .tcg fájlformátumban. Ezt követően a montázst meg is lehet jeleníteni egy külön ablakban. Az alkalmazás indítása után a beviteli mezők és vezérlő gombok a bal oldalon, a vizuális grafikai tervező felület a jobb oldalon látható.
 
 A mappaútvonalakat a beviteli mezőkben két módon adhatjuk meg. Vagy manuálisan begépelve, vagy a beviteli mezők jobb szélén található, három ponttal jelzett nyomógomb megnyomására felugró párbeszédablak segítségével.
 
